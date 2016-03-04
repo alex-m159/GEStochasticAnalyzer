@@ -5,7 +5,9 @@ This script will retrieve RuneScape pricing data for tradable items, and compute
 Download the GrandEx.py script and the RSCodes.txt file, saving both to the same directory.
 Open a terminal window and move to the directory of GrandEx.py.
 Run the following command to start the program:
-[code]python GrandEx.py <search term1> [<search term2> ...][/code]
+```python
+python GrandEx.py <search term1> [<search term2> ...]
+```
 
 The "search term" argument will be used to filter a list of RuneScape items down to those containing the search terms.
 That list will be printed and you'll be prompted to enter an item code.
